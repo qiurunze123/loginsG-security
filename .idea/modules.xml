@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/loginsG-security.iml" filepath="$PROJECT_DIR$/.idea/loginsG-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginsgeekq-core/loginsgeekq-core.iml" filepath="$PROJECT_DIR$/loginsgeekq-core/loginsgeekq-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginsgeekq-security/loginsgeekq-security.iml" filepath="$PROJECT_DIR$/loginsgeekq-security/loginsgeekq-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginsgeekq-security-app/loginsgeekq-security-app.iml" filepath="$PROJECT_DIR$/loginsgeekq-security-app/loginsgeekq-security-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginsgeekq-security-browser/loginsgeekq-security-browser.iml" filepath="$PROJECT_DIR$/loginsgeekq-security-browser/loginsgeekq-security-browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginsgeekq-security-demo/loginsgeekq-security-demo.iml" filepath="$PROJECT_DIR$/loginsgeekq-security-demo/loginsgeekq-security-demo.iml" />
+    </modules>
+  </component>
+</project>

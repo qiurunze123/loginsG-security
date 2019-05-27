@@ -47,7 +47,8 @@
 	<modules>
 		<module>../loginsgeekq-security-app</module>
 		<module>../loginsgeekq-security-browser</module>
-		<module>../loginsgeekq-security-core</module>
 		<module>../loginsgeekq-security-demo</module>
+		<module>../loginsgeekq-core</module>
+
 	</modules>
 </project>

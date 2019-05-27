@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="loginsgeekq-core" />
+        <module name="loginsgeekq-security-app" />
+        <module name="loginsgeekq-security-browser" />
+        <module name="loginsgeekq-security-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core" target="1.8" />
+      <module name="loginsgeekq-core" target="1.8" />
+      <module name="loginsgeekq-security" target="1.8" />
+      <module name="loginsgeekq-security-app" target="1.8" />
+      <module name="loginsgeekq-security-browser" target="1.8" />
+      <module name="loginsgeekq-security-core" target="1.8" />
+      <module name="loginsgeekq-security-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

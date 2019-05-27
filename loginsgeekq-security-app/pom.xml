@@ -12,7 +12,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.loginsgeekq.security</groupId>
-			<artifactId>loginsgeekq-security-core</artifactId>
+			<artifactId>loginsgeekq-core</artifactId>
 			<version>${loginsgeekq.security.version}</version>
 		</dependency>
 	</dependencies>
