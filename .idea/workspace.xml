@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee1144e3-8d1c-4753-bf65-ce4994791cbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/constanst/SecurityConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SmsCodeProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/ValidateCodeProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/ValidateCodeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeBeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCodeProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/impl/AbstractValidateCodeProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/DefaultSmsCodeSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/BrowserProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/BrowserProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/ImageCodeProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/ImageCodeProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/ValidateCodeProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/ValidateCodeProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/resources/resources/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/resources/resources/signIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/signIn.html" afterDir="false" />
-    </list>
+    <list default="true" id="ee1144e3-8d1c-4753-bf65-ce4994791cbf" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/loginsgeekq-security-core/target/" />
     <ignored path="$PROJECT_DIR$/loginsgeekq-security-demo/target/" />
     <ignored path="$PROJECT_DIR$/loginsgeekq-security/target/" />
@@ -195,10 +169,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="570">
               <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -207,10 +181,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="360">
               <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -716,7 +690,7 @@
     <property name="SearchEverywhereHistoryKey" value="passwo&#9;FILE&#9;jar:///root/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559036684900" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559038139302" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -795,12 +769,12 @@
       <updated>1558748405747</updated>
       <workItem from="1558748407020" duration="15261000" />
       <workItem from="1558923865432" duration="1300000" />
-      <workItem from="1558927350865" duration="11947000" />
+      <workItem from="1558927350865" duration="12605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28508000" />
+    <option name="totallyTimeSpent" value="29166000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -813,9 +787,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -824,7 +797,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.15027027" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.15027027" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32864866" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
@@ -832,7 +805,7 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3295838" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3295838" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.26702702" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.26702702" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3824522" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -1313,20 +1286,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="570">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java">
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="360">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
