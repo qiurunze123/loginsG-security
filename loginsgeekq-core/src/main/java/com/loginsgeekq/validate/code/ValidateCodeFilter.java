@@ -1,11 +1,13 @@
 package com.loginsgeekq.validate.code;
 
+import com.loginsgeekq.core.SecurityProperties;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;
+import org.springframework.util.AntPathMatcher;
 import org.springframework.web.bind.ServletRequestBindingException;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
@@ -16,6 +18,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.HashSet;
+import java.util.Set;
 
 public class ValidateCodeFilter extends OncePerRequestFilter implements InitializingBean {
 
@@ -23,14 +27,42 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
 
     private AuthenticationFailureHandler authenticationFailureHandler;
 
+    private SecurityProperties securityProperties ;
+
+    /**
+     * 验证请求url与配置的url是否匹配的工具类
+     */
+    private AntPathMatcher pathMatcher = new AntPathMatcher();
+
+    /**
+     * 匹配的  url地址
+     *
+     * 所有需要过滤的 url
+     */
+    Set<String> needUrls = new HashSet<>();
+
+
+    @Override
+    public void afterPropertiesSet() throws ServletException {
+        super.afterPropertiesSet();
+        String[] urls = StringUtils.splitByWholeSeparatorPreserveAllTokens(securityProperties.getImageCodeProperties().getUrl(), ",");
+        for (String url :urls ) {
+            needUrls.add(url);
+        }
+        needUrls.add("/authentication/form");
+    }
 
     @Override
     protected void doFilterInternal(HttpServletRequest request,
                                     HttpServletResponse response,
                                     FilterChain filterChain) throws ServletException, IOException {
-
-        if(StringUtils.equals("/authentication/form",request.getRequestURI())&&
-        StringUtils.equalsIgnoreCase(request.getMethod(),"post")){
+            boolean action = false;
+            for (String url : needUrls) {
+                if (pathMatcher.match(url, request.getRequestURI())) {
+                    action =true ;
+            }
+        }
+        if(action){
 
             try{
                 validate(new ServletWebRequest(request));
@@ -83,5 +115,13 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
 
     public void setAuthenticationFailureHandler(AuthenticationFailureHandler authenticationFailureHandler) {
         this.authenticationFailureHandler = authenticationFailureHandler;
+    }
+
+    public SecurityProperties getSecurityProperties() {
+        return securityProperties;
+    }
+
+    public void setSecurityProperties(SecurityProperties securityProperties) {
+        this.securityProperties = securityProperties;
     }
 }

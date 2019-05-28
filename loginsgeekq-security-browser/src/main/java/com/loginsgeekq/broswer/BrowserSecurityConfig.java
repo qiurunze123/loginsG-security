@@ -47,10 +47,13 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
         ValidateCodeFilter validateCodeFilter = new ValidateCodeFilter();
         validateCodeFilter.setAuthenticationFailureHandler(failureHandler);
+        validateCodeFilter.setSecurityProperties(securityProperties);
+        validateCodeFilter.afterPropertiesSet();
         /**
          *  表单登陆  任何请求 需要认证
          */
-        http.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class).formLogin().loginPage("/authentication/require").loginProcessingUrl("/authentication/form")
+        http.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class).formLogin().loginPage("/authentication/require").
+                loginProcessingUrl("/authentication/form")
                 .successHandler(authenticationSuccessHandler)
                 .failureHandler(failureHandler)
                 .and().authorizeRequests()
