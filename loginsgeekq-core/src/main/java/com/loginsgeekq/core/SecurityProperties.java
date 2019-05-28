@@ -16,6 +16,8 @@ public class SecurityProperties {
 
 	private ImageCodeProperties imageCodeProperties = new ImageCodeProperties();
 
+	private ValidateCodeProperties code = new ValidateCodeProperties();
+
 	public BrowserProperties getBrowser() {
 		return browser;
 	}
@@ -30,6 +32,14 @@ public class SecurityProperties {
 
 	public void setImageCodeProperties(ImageCodeProperties imageCodeProperties) {
 		this.imageCodeProperties = imageCodeProperties;
+	}
+
+	public ValidateCodeProperties getCode() {
+		return code;
+	}
+
+	public void setCode(ValidateCodeProperties code) {
+		this.code = code;
 	}
 }
 

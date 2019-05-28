@@ -1,9 +1,12 @@
 package com.loginsgeekq.validate.code;
 
 import com.loginsgeekq.core.SecurityProperties;
+import com.loginsgeekq.validate.code.sms.SmsCodeGenerator;
+import com.loginsgeekq.validate.code.sms.SmsCodeSender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;
+import org.springframework.web.bind.ServletRequestBindingException;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,6 +29,12 @@ public class ValidateCodeController  {
     @Autowired
     private SecurityProperties securityProperties;
 
+    @Autowired
+    private SmsCodeGenerator smsCodeGenerator;
+
+    @Autowired
+    private SmsCodeSender smsCodeSender;
+
     @GetMapping("/code/image")
     public void createCode(HttpServletRequest request , HttpServletResponse response) throws IOException {
 
@@ -35,7 +44,18 @@ public class ValidateCodeController  {
         ImageIO.write(imageCode.getImage(),"jpg",response.getOutputStream());
     }
 
+
+    @GetMapping("/code/sms")
+    public void createSmsCode(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletRequestBindingException {
+        ValidateCode validateCode = smsCodeGenerator.generate((ServletWebRequest) request);
+        String mobile = ServletRequestUtils.getRequiredStringParameter(request, "mobile");
+        sessionStrategy.setAttribute(new ServletWebRequest(request), SESSION_KEY, validateCode.getCode());
+        smsCodeSender.send(mobile, validateCode.getCode());
+    }
+
+
     private ImageCode createImageCode(HttpServletRequest request){
+
         int width = Integer.valueOf(securityProperties.getImageCodeProperties().getWidth());
         int height = Integer.valueOf(securityProperties.getImageCodeProperties().getHeight());
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
@@ -66,7 +86,7 @@ public class ValidateCodeController  {
 
         g.dispose();
 
-        return new ImageCode(image, sRand, 60);
+        return new ImageCode(image, sRand,  Integer.valueOf(securityProperties.getImageCodeProperties().getExpireIn()));
 
     }
 

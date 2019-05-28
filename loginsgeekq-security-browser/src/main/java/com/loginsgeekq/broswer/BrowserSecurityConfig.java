@@ -7,11 +7,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
+import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
+
+import javax.sql.DataSource;
 
 /**
  * @author 邱润泽 bullock
@@ -30,10 +35,15 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private AuthenticationSuccessHandler authenticationSuccessHandler;
-
+    @Autowired
+    private DataSource dataSource;
+    @Autowired
+    private PersistentTokenRepository persistentTokenRepository;
 
     @Autowired
     private AuthenticationFailureHandler failureHandler;
+    @Autowired
+    private UserDetailsService userDetailsService;
 
     @Bean
     public PasswordEncoder passwordEncoder() {
@@ -41,6 +51,18 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 
+
+    @Bean
+    public PersistentTokenRepository persistentTokenRepository() {
+        // org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.tokenRepository
+        JdbcTokenRepositoryImpl jdbcTokenRepository = new JdbcTokenRepositoryImpl();
+        jdbcTokenRepository.setDataSource(dataSource);
+//         该对象里面有定义创建表的语句
+//         可以设置让该类来创建表
+//         但是该功能只用使用一次，如果数据库已经存在表则会报错
+//        jdbcTokenRepository.setCreateTableOnStartup(true);
+        return jdbcTokenRepository;
+    }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -56,6 +78,10 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
                 loginProcessingUrl("/authentication/form")
                 .successHandler(authenticationSuccessHandler)
                 .failureHandler(failureHandler)
+                .and().rememberMe().tokenRepository(persistentTokenRepository)
+                .tokenValiditySeconds(60 * 60 * 24 * 7)
+                // userDetailsService 是必须的。不然就报错
+                .userDetailsService(userDetailsService)
                 .and().authorizeRequests()
                 .antMatchers("/authentication/require",
                         securityProperties.getBrowser().getLoginPage()
