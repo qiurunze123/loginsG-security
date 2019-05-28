@@ -2,41 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee1144e3-8d1c-4753-bf65-ce4994791cbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/BrowserProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/LoginResponseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityCoreConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ImageCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/resources/resources/imooc-banding.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/resources/resources/imooc-signUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/resources/resources/session/invalid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/authentication/GeekqAuthenticationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/authentication/GeekqAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/support/SimpleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/resources/resources/signIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-browser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-browser/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/security/browser/BrowserSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/resources/resources/imooc-signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/resources/resources/imooc-signIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-core/.factorypath" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/.factorypath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-core/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-core/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/java/com/loginsgeekq/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/java/com/loginsgeekq/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/java/com/loginsgeekq/service/MydetailUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/java/com/loginsgeekq/service/MydetailUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/ImageCodeProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/ImageCodeProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/mock/response/01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/mock/response/02.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/demo-signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/signIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/demo-signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/demo-signUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/loginsgeekq-security-core/target/" />
     <ignored path="$PROJECT_DIR$/loginsgeekq-security-demo/target/" />
@@ -100,81 +73,86 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="549898197">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="22" />
+          <entry key="properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="22" />
+          <entry key="Properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="158" />
+          <entry key="properties" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="158" />
+          <entry key="Properties" value="13" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/authentication/GeekqAuthenticationFailureHandler.java">
+        <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="38" column="104" selection-start-line="38" selection-start-column="104" selection-end-line="38" selection-end-column="104" />
+            <state relative-caret-position="635">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/ImageCodeProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java">
+        <entry file="file://$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3073#3074#0" expanded="true" />
-                <element signature="e#3124#3125#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/AuthenticationException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="266">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -182,8 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="27">
+              <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,19 +170,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+        <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/signIn.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="266">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="51" />
+              <folding>
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,6 +194,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>core</find>
+      <find>signIn1.html</find>
+      <find>imageCodeProperties</find>
+      <find>codeProperties</find>
+      <find>length</find>
+      <find>url</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -229,7 +207,7 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../下载/x1hn1k/new-star-blog" value="PREVIEW" />
+        <entry key="D:/下载/x1hn1k/new-star-blog" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -250,7 +228,6 @@
         <option value="$PROJECT_DIR$/loginsgeekq-core/pom.xml" />
         <option value="$PROJECT_DIR$/loginsgeekq-security/pom.xml" />
         <option value="$PROJECT_DIR$/loginsgeekq-security-app/pom.xml" />
-        <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityProperties.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/BrowserPropertiesconfig.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/browser/BrowserSecurityConfig.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/browser/BrowserPropertiesconfig.java" />
@@ -260,7 +237,6 @@
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/LoginResponseType.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/BrowserProperties.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/authentication/GeekqAuthenticationSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeSender.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCode.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCodeGenerator.java" />
@@ -268,11 +244,14 @@
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCode.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/resources/resources/signIn.html" />
         <option value="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/signIn.html" />
-        <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateException.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/authentication/GeekqAuthenticationFailureHandler.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java" />
+        <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityProperties.java" />
+        <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/ImageCodeProperties.java" />
+        <option value="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" />
       </list>
     </option>
   </component>
@@ -299,9 +278,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="29" />
-    <option name="width" value="1920" />
-    <option name="height" value="1024" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -309,8 +289,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -608,15 +586,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="passwo&#9;FILE&#9;jar:///root/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558844939101" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../p1o6vt (2)" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559009698117" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -669,8 +648,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DemoApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Application.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -689,11 +668,13 @@
       <option name="presentableId" value="Default" />
       <updated>1558748405747</updated>
       <workItem from="1558748407020" duration="15261000" />
+      <workItem from="1558923865432" duration="1300000" />
+      <workItem from="1558927350865" duration="3326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15261000" />
+    <option name="totallyTimeSpent" value="19887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -705,19 +686,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="29" width="1922" height="1025" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3295838" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
@@ -725,21 +706,23 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3295838" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3295838" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.4375703" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.3824522" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.18378378" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3824522" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3295838" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32959402" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" weight="0.32959402" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" />
+      <window_info anchor="bottom" id="LuaCheck" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32959402" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32959402" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,38 +741,13 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-core/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-core/loginsgeekq-security-core.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/browser/BrowserSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-core/loginsgeekq-security-core.iml" />
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security/core/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/browser/BrowserSecurityConfig.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-992" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-core/pom.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -811,24 +769,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE-sources.jar!/org/springframework/security/crypto/bcrypt/BCrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1501">
-          <caret line="536" column="25" selection-start-line="536" selection-start-column="25" selection-end-line="536" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE-sources.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding>
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE-sources.jar!/org/springframework/security/crypto/bcrypt/BCrypt.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE-sources.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -836,13 +778,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE-sources.jar!/org/springframework/security/crypto/password/PasswordEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/4.2.3.RELEASE/spring-security-crypto-4.2.3.RELEASE-sources.jar!/org/springframework/security/crypto/password/PasswordEncoder.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6797">
@@ -909,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-demo/src/main/java/com/loginsgeekq/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginsgeekq-security-demo/src/main/java/com/loginsgeekq/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -933,16 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="44" column="102" selection-start-line="44" selection-start-column="95" selection-end-line="44" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/authentication/GeekqAuthenticationSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -953,13 +872,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeSender.java" />
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCode.java" />
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCodeGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/resources/resources/imooc-signIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/resources/resources/signIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/authentication/GeekqAuthenticationFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="38" column="104" selection-start-line="38" selection-start-column="104" selection-end-line="38" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/AuthenticationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="227" column="9" lean-forward="true" selection-start-line="227" selection-start-column="9" selection-end-line="227" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/signIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-demo/src/main/java/com/loginsgeekq/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="44" column="102" selection-start-line="44" selection-start-column="95" selection-end-line="44" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ImageCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/ValidateCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/LoginResponseType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/BrowserProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="152">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
             <element signature="e#411#412#0" expanded="true" />
             <element signature="e#442#443#0" expanded="true" />
             <element signature="e#516#517#0" expanded="true" />
@@ -970,160 +1012,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityCoreConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="133">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/LoginResponseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeSender.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ImageCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/resources/resources/imooc-signIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/resources/resources/signIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/signIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/AuthenticationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/authentication/GeekqAuthenticationFailureHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="38" column="104" selection-start-line="38" selection-start-column="104" selection-end-line="38" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="635">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3073#3074#0" expanded="true" />
-            <element signature="e#3124#3125#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/ImageCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/core/SecurityProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>

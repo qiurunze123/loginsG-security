@@ -1,5 +1,7 @@
 package com.loginsgeekq.validate.code;
 
+import com.loginsgeekq.core.SecurityProperties;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;
 import org.springframework.web.bind.ServletRequestUtils;
@@ -16,10 +18,13 @@ import java.io.IOException;
 import java.util.Random;
 
 @RestController
-public class ValidateCodeController {
+public class ValidateCodeController  {
 
     private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
     public static final String SESSION_KEY = "SESSION_KEY_IMAGE_CODE";
+
+    @Autowired
+    private SecurityProperties securityProperties;
 
     @GetMapping("/code/image")
     public void createCode(HttpServletRequest request , HttpServletResponse response) throws IOException {
@@ -31,8 +36,8 @@ public class ValidateCodeController {
     }
 
     private ImageCode createImageCode(HttpServletRequest request){
-        int width = 67;
-        int height = 23;
+        int width = Integer.valueOf(securityProperties.getImageCodeProperties().getWidth());
+        int height = Integer.valueOf(securityProperties.getImageCodeProperties().getHeight());
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 
         Graphics g = image.getGraphics();
@@ -52,7 +57,7 @@ public class ValidateCodeController {
         }
 
         String sRand = "";
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < Integer.valueOf(securityProperties.getImageCodeProperties().getLength()); i++) {
             String rand = String.valueOf(random.nextInt(10));
             sRand += rand;
             g.setColor(new Color(20 + random.nextInt(110), 20 + random.nextInt(110), 20 + random.nextInt(110)));
