@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee1144e3-8d1c-4753-bf65-ce4994791cbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/mobile/mobile/SmsCodeAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/mobile/mobile/SmsCodeAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/mobile/mobile/SmsCodeAuthenticationSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/mobile/mobile/SmsCodeAuthenticationToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/reflecttest/Test1Impl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/reflecttest/TestCollect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/reflecttest/TestImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/reflecttest/testI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/image/ImageCodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/impl/AbstractValidateCodeProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/impl/AbstractValidateCodeProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/sms/SmsCodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginsgeekq-security-demo/src/main/resources/resources/signIn.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/loginsgeekq-security-core/target/" />
     <ignored path="$PROJECT_DIR$/loginsgeekq-security-demo/target/" />
@@ -109,14 +94,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="21" />
-          <entry key="java" value="1062" />
+          <entry key="java" value="1067" />
           <entry key="properties" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="21" />
-          <entry key="JAVA" value="1062" />
+          <entry key="JAVA" value="1067" />
           <entry key="Properties" value="36" />
         </counts>
       </usages-collector>
@@ -133,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="442">
               <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
             </state>
           </provider>
@@ -151,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="517">
+              <caret line="63" column="52" selection-start-line="63" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -306,9 +291,9 @@
         <option value="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/reflecttest/testI.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/reflecttest/TestImpl.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/reflecttest/TestCollect.java" />
-        <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/reflecttest/Test1Impl2.java" />
         <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/reflecttest/TestImpl.java" />
+        <option value="$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java" />
       </list>
     </option>
   </component>
@@ -335,9 +320,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="11" />
-    <option name="width" value="1920" />
-    <option name="height" value="1024" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -600,7 +586,7 @@
     <property name="SearchEverywhereHistoryKey" value="passwo&#9;FILE&#9;jar:///root/.m2/repository/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559113460167" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559129553003" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -679,12 +665,12 @@
       <updated>1558748405747</updated>
       <workItem from="1558748407020" duration="15261000" />
       <workItem from="1558923865432" duration="1300000" />
-      <workItem from="1558927350865" duration="21925000" />
+      <workItem from="1558927350865" duration="24293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38486000" />
+    <option name="totallyTimeSpent" value="40854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,7 +694,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.26702702" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.26702702" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32864866" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
@@ -717,7 +703,7 @@
       <window_info anchor="bottom" id="Find" order="7" weight="0.3295838" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3295838" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.39459458" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.38162163" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.21513514" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3295838" />
@@ -1132,13 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/reflecttest/testI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1210,11 +1189,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loginsgeekq-core/src/main/java/com/loginsgeekq/validate/code/ValidateCodeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        <state relative-caret-position="517">
+          <caret line="63" column="52" selection-start-line="63" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginsgeekq-security-browser/src/main/java/com/loginsgeekq/broswer/BrowserSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
         </state>
       </provider>
     </entry>

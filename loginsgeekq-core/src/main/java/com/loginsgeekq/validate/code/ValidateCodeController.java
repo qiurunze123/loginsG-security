@@ -60,7 +60,6 @@ public class ValidateCodeController  {
 
 //        testCollect.create();
 
-
         ValidateCode validateCode = smsCodeGenerator.generate( request);
         String mobile = ServletRequestUtils.getRequiredStringParameter(request.getRequest(), "mobile");
         sessionStrategy.setAttribute(new ServletWebRequest(request.getRequest()), SESSION_KEY, validateCode.getCode());
