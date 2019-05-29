@@ -16,6 +16,7 @@ import org.springframework.web.bind.ServletRequestBindingException;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 import static com.loginsgeekq.validate.ValidateCodeProcessor.SESSION_KEY_PREFIX;

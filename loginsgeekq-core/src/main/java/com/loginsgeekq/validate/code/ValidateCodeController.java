@@ -1,6 +1,7 @@
 package com.loginsgeekq.validate.code;
 
 import com.loginsgeekq.core.SecurityProperties;
+import com.loginsgeekq.reflecttest.testI;
 import com.loginsgeekq.validate.code.sms.SmsCodeGenerator;
 import com.loginsgeekq.validate.code.sms.SmsCodeSender;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,12 +13,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.ServletWebRequest;
 
+import javax.annotation.Resource;
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.Map;
 import java.util.Random;
 
 @RestController
@@ -35,6 +38,13 @@ public class ValidateCodeController  {
     @Autowired
     private SmsCodeSender smsCodeSender;
 
+    @Autowired
+    @Resource(name="Test1Impl2")
+    private testI testCollect;
+
+    @Autowired
+    private Map<String, testI> aaa;
+
     @GetMapping("/code/image")
     public void createCode(HttpServletRequest request , HttpServletResponse response) throws IOException {
 
@@ -46,10 +56,14 @@ public class ValidateCodeController  {
 
 
     @GetMapping("/code/sms")
-    public void createSmsCode(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletRequestBindingException {
-        ValidateCode validateCode = smsCodeGenerator.generate((ServletWebRequest) request);
-        String mobile = ServletRequestUtils.getRequiredStringParameter(request, "mobile");
-        sessionStrategy.setAttribute(new ServletWebRequest(request), SESSION_KEY, validateCode.getCode());
+    public void createSmsCode(ServletWebRequest request, ServletWebRequest response) throws IOException, ServletRequestBindingException {
+
+//        testCollect.create();
+
+
+        ValidateCode validateCode = smsCodeGenerator.generate( request);
+        String mobile = ServletRequestUtils.getRequiredStringParameter(request.getRequest(), "mobile");
+        sessionStrategy.setAttribute(new ServletWebRequest(request.getRequest()), SESSION_KEY, validateCode.getCode());
         smsCodeSender.send(mobile, validateCode.getCode());
     }
 

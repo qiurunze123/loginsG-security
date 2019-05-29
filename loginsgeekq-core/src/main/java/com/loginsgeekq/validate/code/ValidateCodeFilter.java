@@ -50,6 +50,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
             needUrls.add(url);
         }
         needUrls.add("/authentication/form");
+//        needUrls.add("/authentication/mobile");
     }
 
     @Override

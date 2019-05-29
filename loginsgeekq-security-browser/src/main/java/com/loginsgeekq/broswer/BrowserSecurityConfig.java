@@ -1,6 +1,8 @@
 package com.loginsgeekq.broswer;
 
+import com.loginsgeekq.constanst.SecurityConstants;
 import com.loginsgeekq.core.SecurityProperties;
+import com.loginsgeekq.mobile.mobile.SmsCodeAuthenticationSecurityConfig;
 import com.loginsgeekq.validate.code.ValidateCodeFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -45,6 +47,9 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserDetailsService userDetailsService;
 
+    @Autowired
+    private SmsCodeAuthenticationSecurityConfig smsCodeAuthenticationSecurityConfig;
+
     @Bean
     public PasswordEncoder passwordEncoder() {
 
@@ -74,18 +79,20 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
         /**
          *  表单登陆  任何请求 需要认证
          */
-        http.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class).formLogin().loginPage("/authentication/require").
+        http.apply(smsCodeAuthenticationSecurityConfig).and().
+                addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class).formLogin().loginPage("/authentication/require").
                 loginProcessingUrl("/authentication/form")
                 .successHandler(authenticationSuccessHandler)
                 .failureHandler(failureHandler)
                 .and().rememberMe().tokenRepository(persistentTokenRepository)
                 .tokenValiditySeconds(60 * 60 * 24 * 7)
-                // userDetailsService 是必须的。不然就报错
                 .userDetailsService(userDetailsService)
                 .and().authorizeRequests()
-                .antMatchers("/authentication/require",
-                        securityProperties.getBrowser().getLoginPage()
-                ,"/code/image")
+                .antMatchers(	SecurityConstants.DEFAULT_UNAUTHENTICATION_URL,
+                        SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_MOBILE,
+                        securityProperties.getBrowser().getLoginPage(),
+                        SecurityConstants.DEFAULT_VALIDATE_CODE_URL_PREFIX+"/*",
+                        "/user/regist")
                 .permitAll()
                 .anyRequest().authenticated().and().csrf().disable();
     }
